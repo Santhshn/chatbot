@@ -1,0 +1,211 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Nativity certificate",
+      "patterns": [
+        "Nativity certificate"
+      ],
+      "responses": [
+        "https://tnedistrict.tn.gov.in/web/common/validateAadhar.xhtml?sPar=j6hL2AhnqTzA3koMS+vsag=="
+      ]
+    },
+    {
+      "tag": "Income certificate",
+      "patterns": [
+        "Income certificate"
+      ],
+      "responses": ["https://tnedistrict.tn.gov.in/edaweb/common/validateAadhar.xhtml?sPar=j6hL2AhnqTzDHsEzm0r6rQ"]
+       },
+    {
+      "tag": "First graduate certificate",
+      "patterns": ["First graduate certificate"],
+      "responses": ["https://tnedistrict.tn.gov.in/eda/common/validateAadhar.xhtml?sPar=j6hL2AhnqTx8txFLNZURCg=="]
+    },
+    {
+      "tag": "Family migration certificate",
+      "patterns":["Family migration certificate"],
+      "responses": ["https://tnedistrict.tn.gov.in/eda/common/validateAadhar.xhtml?sPar=j6hL2AhnqTxJQgMQA8H78Q=="]
+    },
+    {
+      "tag": "Community certificate",
+      "patterns": ["Community certificate"],
+      "responses": ["https://tnedistrict.tn.gov.in/tnweb/common/validateAadhar.xhtml?sPar=j6hL2AhnqTwUTzoRO1HiJw=="]
+    },
+    {
+      "tag": "Aadhar updation",
+      "patterns": ["Aadhar updation"],
+      "responses": ["https://uidai.gov.in/my-aadhaar/update-aadhaar.html"]
+    },
+    {
+      "tag": "Aadhar status",
+      "patterns": ["Aadhar status"],
+      "responses": ["https://resident.uidai.gov.in/check-aadhaar"]
+       },
+       {
+        "tag": "Aadhar updation",
+        "patterns": "Aadhar updation",
+        "responses": "https://uidai.gov.in/my-aadhaar/update-aadhaar.html"
+    },
+    {
+        "tag": "Aadhar status",
+        "patterns": "Aadhar status",
+        "responses": "https://resident.uidai.gov.in/check-aadhaar"
+    },
+    {
+        "tag": "Profession tax",
+        "patterns": "Profession tax",
+        "responses": "https://tnurbanepay.tn.gov.in/CP_ProfTaxPaymentDetails.aspx#"
+    },
+    {
+        "tag": "Birt certificate application",
+        "patterns": "Birt certificate application",
+        "responses": "https://www.crstn.org/birth_death_tn/PubBirthCertReport.jsp"
+    },
+    {
+        "tag": "Death certificate",
+        "patterns": "Death certificate",
+        "responses": "https://www.crstn.org/birth_death_tn/PubDeathCertReport.jsp"
+    },
+    {
+        "tag": "EB bill payment(online)",
+        "patterns": "EB bill payment(online)",
+        "responses": "https://www.tnebnet.org/qwp/qpay"
+    },
+    {
+        "tag": "Water tax online payment",
+        "patterns": ["Water tax online payment"],
+        "responses": ["https://payment.ccmc.gov.in/frmViewWaterCharges.asp"]
+    },
+    {
+        "tag": "Property tax",
+        "patterns": "Property tax",
+        "responses": "https://tnurbanepay.tn.gov.in/PT_CPPaymentDetails.aspx#"
+    },
+    {
+      "tag": "Adi Dravidar and Tribal Welfare Department",
+      "patterns": "Adi Dravidar and Tribal Welfare Department",
+      "responses": "https://www.tn.gov.in/scheme/department_wise/1"
+  },
+  {
+      "tag": "BC, MBC & Minorities Welfare Department",
+      "patterns": "BC, MBC & Minorities Welfare Department",
+      "responses": "https://www.tn.gov.in/scheme/department_wise/4"
+  },
+  {
+      "tag": "Agriculture and Farmers Welfare department",
+      "patterns": "Agriculture and Farmers Welfare department",
+      "responses": "https://www.tn.gov.in/scheme/department_wise/2"
+  },
+  {
+      "tag": "Co-operation, Food and Consumer Protection Department",
+      "patterns": "Co-operation, Food and Consumer Protection Department",
+      "responses": "https://www.tn.gov.in/scheme/department_wise/5"
+  },
+  {
+      "tag": "Handlooms, Handicrafts, Textiles and Khadi Department",
+      "patterns": "Handlooms, Handicrafts, Textiles and Khadi Department",
+      "responses": "https://www.tn.gov.in/scheme/department_wise/10"
+  },
+  {
+      "tag": "Revenue and Disaster Management Department",
+      "patterns": "Revenue and Disaster Management Department",
+      "responses": "https://www.tn.gov.in/scheme/department_wise/26"
+  },
+  {
+      "tag": "Tamil Dev. and Information Department",
+      "patterns": "Tamil Dev. and Information Department",
+      "responses": "https://www.tn.gov.in/scheme/department_wise/31"
+  },
+  {
+      "tag": "Labour Welfare and Skill Development Department",
+      "patterns": "Labour Welfare and Skill Development Department",
+      "responses": "https://www.tn.gov.in/scheme/department_wise/18"
+  },
+  {
+      "tag": "Micro , Small and Medium Enterprises Department",
+      "patterns": "Micro , Small and Medium Enterprises Department",
+      "responses": "https://www.tn.gov.in/scheme/department_wise/29"
+  }
+  ]
+}
+
